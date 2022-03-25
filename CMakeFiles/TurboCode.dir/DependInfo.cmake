@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/d/Home/Teidesat/TurboCode/src/RSCC/RSCC.cpp" "/mnt/d/Home/Teidesat/TurboCode/cmake-build-debug/CMakeFiles/TurboCode.dir/src/RSCC/RSCC.cpp.o"
-  "/mnt/d/Home/Teidesat/TurboCode/src/main.cpp" "/mnt/d/Home/Teidesat/TurboCode/cmake-build-debug/CMakeFiles/TurboCode.dir/src/main.cpp.o"
+  "/mnt/d/Home/Teidesat/TurboCode/src/RSCC/RSCC.cpp" "/mnt/d/Home/Teidesat/TurboCode/CMakeFiles/TurboCode.dir/src/RSCC/RSCC.cpp.o"
+  "/mnt/d/Home/Teidesat/TurboCode/src/main.cpp" "/mnt/d/Home/Teidesat/TurboCode/CMakeFiles/TurboCode.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

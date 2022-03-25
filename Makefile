@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /mnt/d/Home/Teidesat/TurboCode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Home/Teidesat/TurboCode/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/Home/Teidesat/TurboCode
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Home/Teidesat/TurboCode/cmake-build-debug/CMakeFiles /mnt/d/Home/Teidesat/TurboCode/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Home/Teidesat/TurboCode/CMakeFiles /mnt/d/Home/Teidesat/TurboCode/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Home/Teidesat/TurboCode/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Home/Teidesat/TurboCode/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

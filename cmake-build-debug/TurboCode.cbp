@@ -82,6 +82,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/d/Home/Teidesat/TurboCode/src/RSCC/RSCC.cpp">
+			<Option target="TurboCode"/>
+		</Unit>
+		<Unit filename="/mnt/d/Home/Teidesat/TurboCode/src/RSCC/RSCC.h">
+			<Option target="TurboCode"/>
+		</Unit>
+		<Unit filename="/mnt/d/Home/Teidesat/TurboCode/src/common.h">
+			<Option target="TurboCode"/>
+		</Unit>
 		<Unit filename="/mnt/d/Home/Teidesat/TurboCode/src/main.cpp">
 			<Option target="TurboCode"/>
 		</Unit>

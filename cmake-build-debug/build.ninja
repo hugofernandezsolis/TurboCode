@@ -49,11 +49,19 @@ cmake_ninja_workdir = D$:/Home/Teidesat/TurboCode/cmake-build-debug/
 
 build cmake_object_order_depends_target_TurboCode: phony || CMakeFiles/TurboCode.dir
 
-build CMakeFiles/TurboCode.dir/main.cpp.obj: CXX_COMPILER__TurboCode_Debug D$:/Home/Teidesat/TurboCode/main.cpp || cmake_object_order_depends_target_TurboCode
-  DEP_FILE = CMakeFiles\TurboCode.dir\main.cpp.obj.d
+build CMakeFiles/TurboCode.dir/src/main.cpp.obj: CXX_COMPILER__TurboCode_Debug D$:/Home/Teidesat/TurboCode/src/main.cpp || cmake_object_order_depends_target_TurboCode
+  DEP_FILE = CMakeFiles\TurboCode.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\TurboCode.dir
-  OBJECT_FILE_DIR = CMakeFiles\TurboCode.dir
+  OBJECT_FILE_DIR = CMakeFiles\TurboCode.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\TurboCode.dir\
+  TARGET_PDB = TurboCode.pdb
+
+build CMakeFiles/TurboCode.dir/src/RSCC.cpp.obj: CXX_COMPILER__TurboCode_Debug D$:/Home/Teidesat/TurboCode/src/RSCC.cpp || cmake_object_order_depends_target_TurboCode
+  DEP_FILE = CMakeFiles\TurboCode.dir\src\RSCC.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\TurboCode.dir
+  OBJECT_FILE_DIR = CMakeFiles\TurboCode.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\TurboCode.dir\
   TARGET_PDB = TurboCode.pdb
 
@@ -65,7 +73,7 @@ build CMakeFiles/TurboCode.dir/main.cpp.obj: CXX_COMPILER__TurboCode_Debug D$:/H
 #############################################
 # Link the executable TurboCode.exe
 
-build TurboCode.exe: CXX_EXECUTABLE_LINKER__TurboCode_Debug CMakeFiles/TurboCode.dir/main.cpp.obj
+build TurboCode.exe: CXX_EXECUTABLE_LINKER__TurboCode_Debug CMakeFiles/TurboCode.dir/src/main.cpp.obj CMakeFiles/TurboCode.dir/src/RSCC.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TurboCode.dir
