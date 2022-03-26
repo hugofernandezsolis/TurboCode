@@ -1,6 +1,6 @@
 /**
  * @author Hugo Fernández Solís
- * @date 17/93/2022
+ * @date 17/03/2022
  * @file main.cpp
  * @brief Initializes a toy code for turbo coding.
  */

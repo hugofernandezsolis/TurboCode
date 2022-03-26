@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Home/Teidesat/TurboCode/lib/common.h
+bitset
+-
+
+/mnt/d/Home/Teidesat/TurboCode/src/RSCC/RSCC.cpp
+RSCC.h
+/mnt/d/Home/Teidesat/TurboCode/src/RSCC/RSCC.h
+
+/mnt/d/Home/Teidesat/TurboCode/src/RSCC/RSCC.h
+bitset
+-
+iostream
+-
+../../lib/common.h
+/mnt/d/Home/Teidesat/TurboCode/lib/common.h
+
+/mnt/d/Home/Teidesat/TurboCode/src/main.cpp
+iostream
+-
+RSCC/RSCC.h
+/mnt/d/Home/Teidesat/TurboCode/src/RSCC/RSCC.h
+

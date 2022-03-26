@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/TurboCode.dir/src/main.cpp.o CMakeFiles/TurboCode.dir/src/RSCC/RSCC.cpp.o  -o TurboCode 
+/usr/bin/c++  -g   CMakeFiles/TurboCode.dir/src/main.cpp.o CMakeFiles/TurboCode.dir/src/RSCC/RSCC.cpp.o  -o TurboCode 

@@ -1,6 +1,6 @@
 /**
  * @author Hugo Fernández Solís
- * @date 17/93/2022
+ * @date 17/03/2022
  * @file RSCC.cpp
  * @brief Defines a recursive systematic convolutional coder.
  */
@@ -9,22 +9,22 @@
 #define TURBOCODE_RSCC_H
 
 #include <bitset>
+#include <iostream>
 
-#include "../common.h"
+#include "../../lib/common.h"
 
 
 /**
  * @class RSCC
  * @brief A recursive systematic convolutional coder. It takes a series of bits and codes them.
- * @var state_ - Encoder 1
+ * @var state_ - Constitutes the internal bits of the RSCC to encode the message.
  */
 class RSCC {
   private:
-    bits_32 state_ = bits_32();       // State
+    state_32 state_ = state_32();       // State of the RSCC
 
   public:
     RSCC();                                                       // Default constructor
-    [[maybe_unused]] explicit RSCC(const bits_32 &state);         // Constructor
 
     bits_32 code(const bits_32 &buffer);
 

@@ -1,6 +1,10 @@
 #JetBrains
 .idea
 cmake-build-debug
+CMakeCache.txt
+cmake_install.cmake
+TurboCode
+TurboCode.cbp
 
 # Prerequisites
 *.d
